@@ -95,6 +95,7 @@ const increaseLikeNumber = () => {
     for (let i = 0; i < btnLike.length; i++) {
         btnLike[i].addEventListener("click", function() {
             const likes = taskList[i].priority++;
+            console.log(likes);
             document.getElementsByClassName("count_btn")[i].innerHTML = likes;
 
             var sortedArray = taskList.sort((a, b) => b.likes - a.likes);
@@ -104,7 +105,8 @@ const increaseLikeNumber = () => {
 };
 
 myTask(taskList);
-increaseLikeNumber();
+// when i call this function here, the first click starts from number 2
+// increaseLikeNumber();
 
 // // Sort the like numbers
 function sortLike() {
