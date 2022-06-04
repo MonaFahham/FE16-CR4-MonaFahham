@@ -21,7 +21,7 @@ const myTask = (priorityTask) => {
         // Make a new card for each task of JSON file
         content_box.innerHTML += `
         <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center my-3">
-        <div class="card" style="width: 18rem">
+        <div class="card box_shadow" style="width: 18rem">
             <div class=" row justify-content-center top-card">
                 <div class="col-12 my-2 row d-flex justify-content-between ">
                     <div class="col-3 text-center">
