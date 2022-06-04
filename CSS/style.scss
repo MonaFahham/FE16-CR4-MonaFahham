@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero_image {
+    text-align: center;
+    position: relative;
+    .fit-image {
+        width: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+    .slide {
+        .text_img {
+            position: absolute;
+            background-color: rgba(67, 65, 65, 0.644);
+            border-radius: 0px;
+            padding: 2.5rem;
+            color: rgb(255, 255, 255);
+            font-size: 3vw;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.weekly_text {
+    margin-left: 2.5rem;
+    padding-top: 1rem;
+}
+
+.sort {
+    font-size: 1.2rem;
+    margin-right: 2.5rem;
+}
+
+.link_sort {
+    color: black;
+}
+
+.link_sort:hover {
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 5px;
+}
+
+// footer
+footer {
+    max-width: 100%;
+    padding-bottom: 4vh;
+    .social_icon {
+        border-radius: 8px;
+        padding: 16%;
+        width: 40px;
+        // height: 40px;
+        margin: 0.5rem;
+        border: 1px solid white;
+    }
+    .newsletter {
+        width: 100%;
+        padding-bottom: 4vh;
+        .footer_email {
+            margin-left: -3rem;
+            width: 30vw;
+        }
+        .btn_footer {
+            color: white;
+            border: solid 2px white;
+            background-color: transparent;
+            border-radius: 5px;
+            // width: 8vw;
+        }
+    }
+}
+
+.bookmark {
+    width: 18px;
+    height: 20px;
+}
+
+.three_dots {
+    width: 5px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.top-card {
+    padding-top: 1vh;
+}
+
+.top-card-right {
+    margin-right: 0.5vw;
+    margin-top: 2vh;
+}
+
+.bg_task {
+    background-color: #06caf0;
+    padding: 4px;
+    color: white;
+    border-radius: 6px;
+}
+
+.img_card {
+    height: 10rem;
+    width: 16rem;
+    // text-align: center;
+    // object-position: center;
+    // object-fit: cover;
+}
+
+.center_card_image {
+    align-items: center;
+    margin-left: 1.1vw;
+    width: 16rem;
+}
+
+.prio {
+    margin-top: 5vh;
+}
+
+.priority_icon {
+    margin-top: 1vh;
+    margin-right: 0.5vw;
+}
+
+.num_prio {
+    color: white;
+    cursor: pointer;
+}
+
+.deadline {
+    margin-top: 1vh;
+    margin-right: 0.5vw;
+}
+
+.deadline_icon {
+    margin-top: 1.2vh;
+    margin-right: 0.5vw;
+}
+
+.deadline_date {
+    margin-right: 0.5vw;
+}

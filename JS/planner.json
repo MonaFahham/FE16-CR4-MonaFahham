@@ -1,0 +1,66 @@
+let tasks = `[
+  {
+    "id": "1",
+    "taskName":"Have breakfast",
+    "description": "Make breakfast consisting of fruits, grains, protein, and dairy.",
+    "image": "../IMG/breakfast.jpg",
+    "deadline": "04.06.2022",
+    "priority": 0  
+  }, {
+    "id": "2",
+    "taskName":"Shopping",
+    "description": "Shop for weekly groceries at Billa and Hofer.",
+    "image": "../IMG/shopping.jpg", 
+    "deadline": "05.06.2022",
+    "priority": 0 
+  }, {
+    "id": "3",
+    "taskName":"Attend the course",
+    "description": "Attend the course at Codefactory Institute.",
+    "image": "../IMG/course.jpg", 
+    "deadline": "07.06.2022",
+    "priority": 0
+  }, {
+    "id": "4",
+    "taskName":"Talk to my parents",
+    "description": "Video call my parents and brother and talk to them.",
+    "image": "../IMG/parents.jpg", 
+    "deadline": "07.06.2022",
+    "priority": 0
+  }, {
+    "id": "5",
+    "taskName":"Go cycling",
+    "image": "../IMG/cycle.jpg", 
+    "description": "Go cycling for about 2 hours and enjoy the weather",
+    "deadline": "06.06.2022",
+    "priority": 0
+  }, {
+    "id": "6",
+    "taskName":"Practice coding",
+    "image": "../IMG/study.jpg", 
+    "description": "Watch a class course one more time and coding.",
+    "deadline": "07.06.2022",
+    "priority": 0
+  }, {
+    "id": "7",
+    "taskName":"Meet Friends",
+    "image": "../IMG/friends.jpg", 
+    "description": "Meet my friends and have fun together.",
+    "deadline": "09.06.2022",
+    "priority": 0
+  }, {
+    "id": "8",
+    "taskName":"Clean the house",
+    "image": "../IMG/clean1.jpg", 
+    "description": "Clean the house, Disinfect countertops and surface areas .",
+    "deadline": "08.06.2022",
+    "priority": 0
+  }, {
+    "id": "9",
+    "taskName":"Watch movie",
+    "image": "../IMG/TV.jpg", 
+    "description": "Watch my favourite series on Netflix.",
+    "deadline": "27.01.2022",
+    "priority": 0
+  }
+]`
