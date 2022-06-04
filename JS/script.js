@@ -107,13 +107,13 @@ myTask(taskList);
 increaseLikeNumber();
 
 // // Sort the like numbers
-// function sortLike() {
-//     taskList.sort(function(x, y) {
-//         return y.priority - x.priority;
-//     });
-// }
+function sortLike() {
+    taskList.sort(function(min, max) {
+        return max.priority - min.priority;
+    });
+}
 
-// document.querySelector(".sort").addEventListener("click", function() {
-//     sortLike();
-//     myTask(taskList);
-// });
+document.querySelector(".link_sort").addEventListener("click", function() {
+    sortLike();
+    myTask(taskList);
+});
